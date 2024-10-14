@@ -35,3 +35,17 @@ pattern =r"\+?\d{1,3}[-.\s]\(?\d{1,3}\)?[-.\s]?\d{1,3}[-.\s]?d{1,4}"
  
 matches = re.findall(pattern,text)
 print(matches)
+
+# matching emails
+text ="Please contact me at +1 (123) 456-7890 or via emial at john@example.com"
+pattern =r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b"
+ 
+matches = re.findall(pattern,text)
+print(matches)
+
+
+
+
+    
+ 
+
