@@ -1,2 +1,2 @@
 # regex
-basic regular exxperssion in python.
+basic regular expression in python.
